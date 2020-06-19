@@ -1,0 +1,67 @@
+﻿@model GUI.Models.AssetIndexModel2
+@{
+    ViewData["Title"] = "ImgDetails";
+}
+
+<h1><strong><em>Process Image Data</em></strong></h1>
+
+<div class="form-group">
+    Search Document by Zone: <input type="text" id="input" onkeyup="searchTable()"
+                                    placeholder="Search by Name" title="Choose Name" size="10" value="Zone: ">
+    <div class="col-md-8">
+        Upload New File:
+        @Html.ActionLink("Upload Page", "FileUpload")
+
+    </div>
+</div>
+<div id="as sets">
+    <table class="table table-condensed" id="LibraryIndexTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Classification</th>
+                <th>View</th>
+                <th>Download</th>
+                <th>Delete</th>
+                <th>test</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var asset in Model.Assets2)
+            {
+                <tr class="assetRow" id="row">
+                    <td class=" ">@asset.FileName</td>
+                    <td class=" ">@asset.ImgClassification</td>
+                    <td class=" ">@Html.ActionLink("View", "ViewImg", new { imageId = asset.Id })</td>
+                    <td class=" ">@Html.ActionLink("Download", "DownloadImg", new { id = asset.Id })</td>
+                    <td class=" ">@Html.ActionLink("Delete", "DeleteImg", new { id = asset.Id })</td>
+
+                </tr>
+            }
+        </tbody>`
+    </table>
+</div>
+<script>
+    function searchTable() {
+        var input, filter, found, table, tr, td, i, j;
+        input = document.getElementById("input");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("LibraryIndexTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td");
+            for (j = 0; j < td.length; j++) {
+                if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    found = true;
+                }
+            }
+            if (found) {
+                tr[i].style.display = "";
+                found = false;
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+</script>
+

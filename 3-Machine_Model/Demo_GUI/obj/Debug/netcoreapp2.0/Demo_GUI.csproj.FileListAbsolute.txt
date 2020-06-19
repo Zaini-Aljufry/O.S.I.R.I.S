@@ -1,0 +1,11 @@
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\bin\Debug\netcoreapp2.0\Demo_GUI.deps.json
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\bin\Debug\netcoreapp2.0\Demo_GUI.runtimeconfig.json
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\bin\Debug\netcoreapp2.0\Demo_GUI.runtimeconfig.dev.json
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\bin\Debug\netcoreapp2.0\Demo_GUI.dll
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\obj\Debug\netcoreapp2.0\Demo_GUI.csprojAssemblyReference.cache
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\obj\Debug\netcoreapp2.0\Demo_GUI.csproj.CoreCompileInputs.cache
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\obj\Debug\netcoreapp2.0\Demo_GUI.AssemblyInfoInputs.cache
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\obj\Debug\netcoreapp2.0\Demo_GUI.AssemblyInfo.cs
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\bin\Debug\netcoreapp2.0\Demo_GUI.pdb
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\obj\Debug\netcoreapp2.0\Demo_GUI.dll
+E:\FORCAPSTONEUSE\Demo_GUI\Demo_GUI\obj\Debug\netcoreapp2.0\Demo_GUI.pdb
